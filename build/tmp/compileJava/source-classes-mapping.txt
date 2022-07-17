@@ -1,8 +1,14 @@
 demo/pages/base/BasePageObject.java
  demo.pages.base.BasePageObject
-demo/webdriver/WebdriverInstance.java
- demo.webdriver.WebdriverInstance
 demo/pages/base/page_object/LoginPages.java
  demo.pages.base.page_object.LoginPages
+demo/pages/base/page_object/KatalonPages.java
+ demo.pages.base.page_object.KatalonPages
+demo/webdriver/WebdriverInstance.java
+ demo.webdriver.WebdriverInstance
+demo/webdriver/WebdriverKatalon.java
+ demo.webdriver.WebdriverKatalon
 demo/pages/base/page_object/AddToCartPages.java
  demo.pages.base.page_object.AddToCartPages
+demo/pages/base/page_object/CheckoutPages.java
+ demo.pages.base.page_object.CheckoutPages

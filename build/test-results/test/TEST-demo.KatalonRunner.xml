@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.KatalonRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="MBP-Mutiarasari" time="0.0">
+  <properties/>
+  <system-out><![CDATA[  ?[31mWhen ?[0m?[31muser click Appointment Button?[0m                  ?[90m# demo.steps_definition.KatalonStep.userClickAppointmentButton()?[0m
+      ?[31mjava.lang.NullPointerException
+	at demo.pages.base.BasePageObject.clickOn(BasePageObject.java:13)
+	at demo.pages.base.page_object.KatalonPages.clickBtnApp(KatalonPages.java:9)
+	at demo.steps_definition.KatalonStep.userClickAppointmentButton(KatalonStep.java:15)
+	at ✽.user click Appointment Button(file:///Users/mutiarasarikusumaputri/Documents/alta-qe-mutiarasarikp/alterra-day3/src/test/resources/features/katalon.feature:5)
+?[0m
+  ?[36mAnd ?[0m?[36muser inputs ?[0m?[36m?[1m"John Doe"?[0m?[36m and ?[0m?[36m?[1m"ThisIsNotAPassword"?[0m ?[90m# demo.steps_definition.KatalonStep.userInputsUsernameAndPassword(java.lang.String,java.lang.String)?[0m
+  ?[36mAnd ?[0m?[36muser click login Button?[0m                         ?[90m# demo.steps_definition.KatalonStep.userClickLoginButton()?[0m
+  ?[36mThen ?[0m?[36muser succesfully Loggedin?[0m                      ?[90m# demo.steps_definition.KatalonStep.userSuccesfullyLoggedin()?[0m
+
+    Embedding Failed Screenshot [image/png 3833241 bytes]
+
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m┌───────────────────────────────────────────────────────────────────────────────────┐?[0m
+?[32m?[1m│?[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Activate publishing with one of the following:                                    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Disable this message with one of the following:                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m└───────────────────────────────────────────────────────────────────────────────────┘?[0m
+]]></system-err>
+</testsuite>

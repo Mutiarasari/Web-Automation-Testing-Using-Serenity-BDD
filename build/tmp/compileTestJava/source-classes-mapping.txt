@@ -1,5 +1,7 @@
-demo/steps_definition/KatalonStep.java
- demo.steps_definition.KatalonStep
+demo/KatalonRunner.java
+ demo.KatalonRunner
+demo/steps_definition/CheckoutStep.java
+ demo.steps_definition.CheckoutStep
 demo/hooks/WebdriverKatalonHook.java
  demo.hooks.WebdriverKatalonHook
 demo/hooks/WebdriverHooks.java
@@ -8,9 +10,11 @@ demo/steps_definition/AddToCartStep.java
  demo.steps_definition.AddToCartStep
 demo/steps_definition/LoginStep.java
  demo.steps_definition.LoginStep
+demo/steps_definition/FacebooktabsStep.java
+ demo.steps_definition.FacebooktabsStep
 demo/CucumberRunner.java
  demo.CucumberRunner
-demo/KatalonRunner.java
- demo.KatalonRunner
-demo/steps_definition/CheckoutStep.java
- demo.steps_definition.CheckoutStep
+demo/steps_definition/KatalonStep.java
+ demo.steps_definition.KatalonStep
+demo/steps_definition/TugasStep.java
+ demo.steps_definition.TugasStep

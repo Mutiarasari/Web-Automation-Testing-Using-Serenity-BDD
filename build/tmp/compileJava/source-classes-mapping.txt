@@ -6,9 +6,15 @@ demo/pages/base/page_object/KatalonPages.java
  demo.pages.base.page_object.KatalonPages
 demo/webdriver/WebdriverInstance.java
  demo.webdriver.WebdriverInstance
-demo/webdriver/WebdriverKatalon.java
- demo.webdriver.WebdriverKatalon
-demo/pages/base/page_object/AddToCartPages.java
- demo.pages.base.page_object.AddToCartPages
 demo/pages/base/page_object/CheckoutPages.java
  demo.pages.base.page_object.CheckoutPages
+demo/pages/base/page_object/TugasPages.java
+ demo.pages.base.page_object.TugasPages
+demo/webdriver/WebdriverKatalon.java
+ demo.webdriver.WebdriverKatalon
+demo/utils/Constant.java
+ demo.utils.Constant
+demo/pages/base/page_object/Facebooktabpages.java
+ demo.pages.base.page_object.Facebooktabpages
+demo/pages/base/page_object/AddToCartPages.java
+ demo.pages.base.page_object.AddToCartPages

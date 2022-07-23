@@ -1,40 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Login Katalon" tests="5" skipped="3" failures="2" errors="0" timestamp="2022-07-17T04:35:43" hostname="MBP-Mutiarasari" time="2.43">
+<testsuite name="Login Katalon" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-07-17T05:45:17" hostname="MBP-Mutiarasari" time="2.321">
   <properties/>
-  <testcase name="user click Appointment Button" classname="Login Katalon" time="0.009">
-    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at demo.pages.base.BasePageObject.clickOn(BasePageObject.java:13)
-	at demo.pages.base.page_object.KatalonPages.clickBtnApp(KatalonPages.java:9)
-	at demo.steps_definition.KatalonStep.userClickAppointmentButton(KatalonStep.java:15)
-	at ✽.user click Appointment Button(file:///Users/mutiarasarikusumaputri/Documents/alta-qe-mutiarasarikp/alterra-day3/src/test/resources/features/katalon.feature:5)
-</failure>
-  </testcase>
-  <testcase name="user inputs &quot;John Doe&quot; and &quot;ThisIsNotAPassword&quot;" classname="Login Katalon" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase name="user click login Button" classname="Login Katalon" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase name="user succesfully Loggedin" classname="Login Katalon" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="classMethod" classname="Login Katalon" time="9.838">
-    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at demo.pages.base.BasePageObject.clickOn(BasePageObject.java:13)
-	at demo.pages.base.page_object.KatalonPages.clickBtnApp(KatalonPages.java:9)
-	at demo.steps_definition.KatalonStep.userClickAppointmentButton(KatalonStep.java:15)
-	at ✽.user click Appointment Button(file:///Users/mutiarasarikusumaputri/Documents/alta-qe-mutiarasarikp/alterra-day3/src/test/resources/features/katalon.feature:5)
-</failure>
-  </testcase>
+  <testcase name="user click Appointment Button" classname="Login Katalon" time="0.784"/>
+  <testcase name="user inputs &quot;John Doe&quot; and &quot;ThisIsNotAPassword&quot;" classname="Login Katalon" time="0.336"/>
+  <testcase name="user click login Button" classname="Login Katalon" time="0.79"/>
+  <testcase name="user succesfully Loggedin" classname="Login Katalon" time="0.222"/>
+  <testcase name="classMethod" classname="Login Katalon" time="10.133"/>
   <system-out><![CDATA[
 @Web1
 Scenario Outline: Login Katalon                       ?[90m# src/test/resources/features/katalon.feature:12?[0m
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 23126
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 11302
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2022 11:35:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 17, 2022 12:45:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
